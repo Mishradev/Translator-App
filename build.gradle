@@ -1,27 +1,129 @@
 
 
-buildscript {
-    repositories {
-        jcenter()
-        maven { url 'https://maven.google.com' }
-        google()
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.protobuf'
+
+ext {
+    supportLibraryVersion = '25.4.0'
+    grpcVersion = '1.15.1'
+}
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
+
+    defaultConfig {
+        applicationId "com.rast.android.speech"
+        targetSdkVersion 28
+        minSdkVersion 23
+        versionCode 1
+        versionName '1.0'
     }
-    dependencies {
-        classpath 'com.android.tools.build:gradle:3.4.0'
-        classpath 'com.google.protobuf:protobuf-gradle-plugin:0.8.8'
+
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    signingConfigs {
+        release {
+            storeFile file(project.properties.storeFile)
+            storePassword project.properties.storePassword
+            keyAlias project.properties.keyAlias
+            keyPassword project.properties.keyPassword
+        }
+    }
+
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            //multiDexEnabled true
+        }
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+
+    configurations.all {
+        resolutionStrategy.force 'com.google.code.findbugs:jsr305:3.0.2'
+        resolutionStrategy.force "com.android.support:support-annotations:$supportLibraryVersion"
+    }
+
+
+        lintOptions {
+            abortOnError false
+        }
+
+    packagingOptions {
+        exclude  'META-INF/INDEX.LIST'
+
     }
 
 }
 
-allprojects {
-    repositories {
-        jcenter()
-        maven { url 'https://maven.google.com' }
+
+protobuf {
+    protoc {
+        artifact = 'com.google.protobuf:protoc:3.3.0'
     }
 
+    plugins {
+        javalite {
+            artifact = "com.google.protobuf:protoc-gen-javalite:3.0.0"
+        }
+        grpc {
+            artifact = "io.grpc:protoc-gen-grpc-java:${grpcVersion}"
+        }
+    }
+
+    generateProtoTasks {
+        all().each { task ->
+            task.plugins {
+                javalite {}
+                grpc {
+                    // Options added to --grpc_out
+                    option 'lite'
+                }
+            }
+        }
+    }
 }
 
-task clean(type: Delete) {
-    delete rootProject.buildDir
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile "io.grpc:grpc-okhttp:$grpcVersion"
+    compile "io.grpc:grpc-protobuf-lite:$grpcVersion"
+    compile "io.grpc:grpc-stub:$grpcVersion"
+    compile 'javax.annotation:javax.annotation-api:1.2'
+    protobuf 'com.google.protobuf:protobuf-java:3.3.1'
+    compile 'androidx.cardview:cardview:1.0.0'
+    compile 'androidx.recyclerview:recyclerview:1.1.0-alpha01'
+    compile 'androidx.recyclerview:recyclerview-selection:1.1.0-alpha01'
+    // OAuth2 for Google API
+    compile('com.google.auth:google-auth-library-oauth2-http:0.7.0') {
+        exclude module: 'httpclient'
+    }
+    // Tests
+    testCompile 'junit:junit:4.12'
+    androidTestCompile 'com.android.support.test:runner:0.5'
+    androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2'
+    compile('com.google.cloud:google-cloud-translate:1.66.0') {
+        exclude group: 'com.google.protobuf'
+        exclude group: 'com.google.rpc'
+    }
+    //compile 'com.android.support:support-annotations:+'
+    implementation 'com.google.android.material:material:1.1.0-alpha05'
+    //implementation 'com.splunk:mint-android-hook-okhttp:5.2.5'
+    //compile 'com.splunk:mint-android-sdk:5.2.5'
+    implementation files('libs/mint-5.2.5.jar')
+}
+
+
+configurations {
+    all*.exclude group: 'com.google.guava', module: 'listenablefuture'
 }
 
