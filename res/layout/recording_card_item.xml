@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_card"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:checkable="true"
+    android:clickable="true"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/cat_card_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            style="?attr/textAppearanceHeadline6"/>
+
+        <!-- Layout for Original Chineses recorded audio -->
+
+        <RelativeLayout android:layout_marginBottom="4dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/cat_card_audio_file"
+            android:text="Filename_filename.3gp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBody2"/>
+
+            <com.google.android.material.button.MaterialButtonToggleGroup
+                android:layout_width="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_height="wrap_content">
+                <Button
+                    style="?attr/materialButtonOutlinedStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/play_id"
+                    android:minWidth="@dimen/mtrl_min_touch_target_size"
+                    app:icon="@drawable/ic_baseline_play_arrow_24px"
+                    app:iconPadding="0dp"/>
+            </com.google.android.material.button.MaterialButtonToggleGroup>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?attr/dividerHorizontal"/>
+
+        <!-- Layout for English Text translated from chinese audio -->
+
+        <RelativeLayout android:layout_marginBottom="4dp"
+            android:id="@+id/english_text_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/cat_card_english_text"
+            android:layout_width="wrap_content"
+            android:text="sample_audio_sample_audio.text"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:textAppearance="?attr/textAppearanceBody2"/>
+
+            <com.google.android.material.button.MaterialButtonToggleGroup
+                android:layout_width="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_height="wrap_content">
+                <Button
+                    style="?attr/materialButtonOutlinedStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="@dimen/mtrl_min_touch_target_size"
+                    app:icon="@drawable/ic_baseline_translate_24px"
+                    android:id="@+id/text_view"
+                    app:iconPadding="0dp"/>
+            </com.google.android.material.button.MaterialButtonToggleGroup>
+
+        </RelativeLayout>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?attr/dividerHorizontal"/>
+
+
+        <!-- Layout for English transalted audio -->
+
+        <RelativeLayout android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:id="@+id/english_audio_container"
+            android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/cat_card_english_audio"
+            android:text="sample_audio_sample_audio.text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:textAppearance="?attr/textAppearanceBody2"/>
+
+
+
+            <com.google.android.material.button.MaterialButtonToggleGroup
+                android:layout_width="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_height="wrap_content">
+                <Button
+                    style="?attr/materialButtonOutlinedStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="@dimen/mtrl_min_touch_target_size"
+                    android:id="@+id/play_english"
+                    app:icon="@drawable/ic_baseline_play_arrow_24px"
+                    app:iconPadding="0dp"/>
+            </com.google.android.material.button.MaterialButtonToggleGroup>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

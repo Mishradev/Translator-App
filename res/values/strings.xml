@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Translator App</string>
+    <string name="permission_message">This app needs to record audio and recognize your speech.</string>
+    <string name="listening">Listening…</string>
+    <string name="load_file">Load file</string>
+    <string name="action_share">Share</string>
+    <string name="action_delete">Delete</string>
+
+
+    <string name="cat_bottomappbar_search">Search</string>
+    <string name="cat_bottomappbar_dashboard">Dashboard</string>
+    <string name="cat_bottomappbar_navigation_button_content_description">Show navigation drawer</string>
+    <string name="cat_bottomappbar_fab_button_content_description">FAB</string>
+
+
+
+
+    <string-array name="language_array">
+        <item>Chinese, Mandarin (Traditional, Taiwan)</item>
+        <item>Chinese, Cantonese (Traditional, Hong Kong)</item>
+        <item>Chinese, Mandarin (Simplified, Hong Kong)</item>
+        <item>Chinese, Mandarin (Simplified, China)</item>
+    </string-array>
+
+</resources>
