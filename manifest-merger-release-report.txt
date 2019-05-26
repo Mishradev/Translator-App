@@ -1,0 +1,215 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:3:1-49:12
+INJECTED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:3:1-49:12
+INJECTED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:3:1-49:12
+INJECTED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:3:1-49:12
+MERGED from [com.google.android.material:material:1.1.0-alpha05] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/147d7cbf19e77e9d36c200ae8ccdbab3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/e6ec766e6eef1bd7cac1f943e44867b2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview-selection:1.1.0-alpha01] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/87decff598c5b51d95e38c4d340fe659/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha01] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/74fa7de9cb9398b04775f8ed28ffc81d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha01] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/f948b3b3d609507507a0d95f56dccb9f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/cb3952c99b446a60cfee47e8bd31b5d5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/39d09a1491b07aace38ea05edbe06313/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/fccadd0d15a61b20ffe538dce7803b0a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/0b77326bb70ca98cacd264c90b01a85f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0-alpha02] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/211214cfd026a9335f3ada726a417eba/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/356a91b60a3de3dedaeb5d2bda35363b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/afabe7d14e823bf2cb458efe630229af/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/efcbee50c26d079d73e226b06f62a4ab/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/8d14162ba864efb63910fff4d8679e17/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.1] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/6ea1bd4fd8e564e092c4687f4083b1ba/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-alpha01] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/2a91249f7d7482b635f0c96a3604f5dd/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/440fa1009c753e3c033fcf9d036f9e02/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/0cf42a1cbacf324ca5300df5621b940e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/de3c60b80099fe908a67d02c60b0ee66/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0-alpha02] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/4f0895b1842481a788dbb12629e78ce4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0-alpha03] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/b5e27bb1b42304885cffa22d8d4d54e2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/afcb1535ab17b0fff98ec93fcd4020a9/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/04dac4223d62ea25f2f640a75a6be077/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/b63bcbd38f0622ebe44a2588ab2279f1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/1405d031c6a5d6451f14846c8bfe96ab/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/717a4091de22802715de68278e1b746b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/b79b90bd5acd2e53a65c03b2e22eba2e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/8fbee572122997f68383d606f5e8e54d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/4ee647c2c5a03c6efc3419058b732386/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/5924257bc62f4478b315b8536904bfd1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/2efdde52bffb979836bdbce641362706/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/cd77be27f1899782c3eeba4695343ca6/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:3:1-49:12
+INJECTED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:3:1-49:12
+INJECTED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:3:1-49:12
+	package
+		ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:6:5-40
+		INJECTED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:3:1-49:12
+		INJECTED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:5:5-51
+	android:versionCode
+		INJECTED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:3:1-49:12
+		INJECTED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:4:5-63
+uses-permission#android.permission.INTERNET
+ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:8:22-64
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:9:5-70
+	android:name
+		ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:9:22-68
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:10:5-78
+	android:name
+		ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:10:22-76
+application
+ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:12:5-47:19
+MERGED from [com.google.android.material:material:1.1.0-alpha05] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/147d7cbf19e77e9d36c200ae8ccdbab3/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0-alpha05] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/147d7cbf19e77e9d36c200ae8ccdbab3/AndroidManifest.xml:22:5-20
+MERGED from [androidx.core:core:1.1.0-alpha03] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/b5e27bb1b42304885cffa22d8d4d54e2/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.1.0-alpha03] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/b5e27bb1b42304885cffa22d8d4d54e2/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/afcb1535ab17b0fff98ec93fcd4020a9/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/afcb1535ab17b0fff98ec93fcd4020a9/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0-alpha03] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/b5e27bb1b42304885cffa22d8d4d54e2/AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:16:9-41
+	android:fullBackupContent
+		ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:14:9-55
+	tools:ignore
+		ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:19:9-48
+	android:icon
+		ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:15:9-43
+	android:allowBackup
+		ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:13:9-35
+	android:theme
+		ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:18:9-45
+activity#com.nitish.android.speech.MainActivity
+ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:20:9-26:20
+	android:screenOrientation
+		ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:21:19-55
+	android:name
+		ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:20:19-72
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:22:13-25:29
+action#android.intent.action.MAIN
+ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:23:17-68
+	android:name
+		ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:24:17-76
+	android:name
+		ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:24:27-74
+provider#com.nitish.android.speech.MyFileProvider
+ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:29:9-39:20
+	android:grantUriPermissions
+		ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:33:13-47
+	android:authorities
+		ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:31:13-47
+	android:exported
+		ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:30:13-68
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:35:13-37:54
+	android:resource
+		ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:37:17-51
+	android:name
+		ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:36:17-67
+provider#com.nitish.android.speech.SpeechStorageProvider
+ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:42:9-44:40
+	android:authorities
+		ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:43:13-60
+	android:exported
+		ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:44:13-37
+	android:name
+		ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:42:19-81
+service#com.nitish.android.speech.SpeechService
+ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:46:9-74
+	android:name
+		ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml:46:18-72
+uses-sdk
+INJECTED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml
+INJECTED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.1.0-alpha05] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/147d7cbf19e77e9d36c200ae8ccdbab3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0-alpha05] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/147d7cbf19e77e9d36c200ae8ccdbab3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/e6ec766e6eef1bd7cac1f943e44867b2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/e6ec766e6eef1bd7cac1f943e44867b2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview-selection:1.1.0-alpha01] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/87decff598c5b51d95e38c4d340fe659/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview-selection:1.1.0-alpha01] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/87decff598c5b51d95e38c4d340fe659/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha01] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/74fa7de9cb9398b04775f8ed28ffc81d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha01] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/74fa7de9cb9398b04775f8ed28ffc81d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha01] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/f948b3b3d609507507a0d95f56dccb9f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha01] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/f948b3b3d609507507a0d95f56dccb9f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/cb3952c99b446a60cfee47e8bd31b5d5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/cb3952c99b446a60cfee47e8bd31b5d5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/39d09a1491b07aace38ea05edbe06313/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/39d09a1491b07aace38ea05edbe06313/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/fccadd0d15a61b20ffe538dce7803b0a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/fccadd0d15a61b20ffe538dce7803b0a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/0b77326bb70ca98cacd264c90b01a85f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/0b77326bb70ca98cacd264c90b01a85f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0-alpha02] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/211214cfd026a9335f3ada726a417eba/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0-alpha02] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/211214cfd026a9335f3ada726a417eba/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/356a91b60a3de3dedaeb5d2bda35363b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/356a91b60a3de3dedaeb5d2bda35363b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/afabe7d14e823bf2cb458efe630229af/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/afabe7d14e823bf2cb458efe630229af/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/efcbee50c26d079d73e226b06f62a4ab/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/efcbee50c26d079d73e226b06f62a4ab/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/8d14162ba864efb63910fff4d8679e17/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/8d14162ba864efb63910fff4d8679e17/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/6ea1bd4fd8e564e092c4687f4083b1ba/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/6ea1bd4fd8e564e092c4687f4083b1ba/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-alpha01] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/2a91249f7d7482b635f0c96a3604f5dd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-alpha01] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/2a91249f7d7482b635f0c96a3604f5dd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/440fa1009c753e3c033fcf9d036f9e02/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/440fa1009c753e3c033fcf9d036f9e02/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/0cf42a1cbacf324ca5300df5621b940e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/0cf42a1cbacf324ca5300df5621b940e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/de3c60b80099fe908a67d02c60b0ee66/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/de3c60b80099fe908a67d02c60b0ee66/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0-alpha02] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/4f0895b1842481a788dbb12629e78ce4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0-alpha02] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/4f0895b1842481a788dbb12629e78ce4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0-alpha03] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/b5e27bb1b42304885cffa22d8d4d54e2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0-alpha03] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/b5e27bb1b42304885cffa22d8d4d54e2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/afcb1535ab17b0fff98ec93fcd4020a9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/afcb1535ab17b0fff98ec93fcd4020a9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/04dac4223d62ea25f2f640a75a6be077/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/04dac4223d62ea25f2f640a75a6be077/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/b63bcbd38f0622ebe44a2588ab2279f1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/b63bcbd38f0622ebe44a2588ab2279f1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/1405d031c6a5d6451f14846c8bfe96ab/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/1405d031c6a5d6451f14846c8bfe96ab/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/717a4091de22802715de68278e1b746b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/717a4091de22802715de68278e1b746b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/b79b90bd5acd2e53a65c03b2e22eba2e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/b79b90bd5acd2e53a65c03b2e22eba2e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/8fbee572122997f68383d606f5e8e54d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/8fbee572122997f68383d606f5e8e54d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/4ee647c2c5a03c6efc3419058b732386/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/4ee647c2c5a03c6efc3419058b732386/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/5924257bc62f4478b315b8536904bfd1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/5924257bc62f4478b315b8536904bfd1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/2efdde52bffb979836bdbce641362706/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/2efdde52bffb979836bdbce641362706/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/cd77be27f1899782c3eeba4695343ca6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/Nitish/.gradle/caches/transforms-2/files-2.1/cd77be27f1899782c3eeba4695343ca6/AndroidManifest.xml:20:5-44
+INJECTED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml
+INJECTED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Nitish/Desktop/Translator App/app/src/main/AndroidManifest.xml
